@@ -1,0 +1,74 @@
+.hamburger-drawer {
+	z-index: 110;
+	position: fixed;
+	top: 20px;
+	right: 0px;
+	bottom: 20px;
+	width: 360px;
+	padding: 20px 10px;
+	background-color: white;
+	transition: all 250ms ease-out;
+	overflow-y: scroll;
+	box-shadow: -4px 0px 8px 0px rgb(200, 200, 200);
+    border-radius: 20px;
+}
+
+.hidden-drawer {
+	transform: translateX(108%);
+}
+
+.userDetailsI{
+    flex:1;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    background-color: aliceblue;
+}
+.ImgDrawer{
+    width: 200px;
+    height: 200px;
+    border-radius: 20px;
+    object-fit: cover;
+}
+.NameDrawer{
+    font-size: 25px;
+    font-weight: 600;
+}
+.infoDesc{
+    display: flex;
+    position: relative;
+    margin-top: 20px;
+}
+.InfoIcon{
+    position: absolute;
+    top:20px;
+    left:-3px;
+}
+.contactDetails{
+    flex:1;
+    padding: 20px;
+    margin-top: 20px;
+    background-color: antiquewhite;
+}
+.contactDetail{
+    margin-top: 10px;
+}
+.ContactDetailItem{
+    font-size: 16px;
+    font-weight: 400;
+    margin-left: 20px;
+}
+.logOut{
+    display: flex;
+    margin-top: 20px;
+}
+.Logout{
+    padding: 5px;
+    background-color: black;
+    border-radius: 10px;
+    width: 70px;
+    cursor: pointer;
+    color:white;
+    border: none;
+    margin-left: 10px;
+}

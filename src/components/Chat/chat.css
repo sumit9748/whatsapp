@@ -1,0 +1,35 @@
+.chat{
+    display: flex;
+    flex-direction: column;
+    margin-top: 20px;
+
+}
+.chatItem{
+    display: flex;
+    align-items: center;
+    width:300px;
+    justify-content: space-between;
+    border-radius: 10px;
+    background-color: rgb(236, 231, 231);
+    padding: 5px;
+}
+.chatText{
+    font-size: 13px;
+    max-width: 300px;
+}
+.time{
+    font-size: 10px;
+    font-weight: 300;
+}
+.chat.own{
+    align-items: flex-end;
+}
+.chat.own .chatItem{
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    border-radius: 10px;
+    width: 300px;
+    background-color: rgb(183, 218, 187);
+    
+}
